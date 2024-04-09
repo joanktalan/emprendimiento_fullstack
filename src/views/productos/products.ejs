@@ -1,0 +1,31 @@
+<%- include('../partials/header') %>
+
+    <main>
+        
+        <h1 class="titulo-producto"><%=categoria%></h1>   
+            
+     
+
+        <section class="product-flex-father">
+
+            <% productos.forEach(producto => { %>
+                <article class="product-child">
+                    <!-- href="" tiene que ser a una ruta relativa -->
+                    <a href="productos/producto/<%=producto.id%>" class="">
+                        <img src="<%=producto.url_img%>" alt="<%=producto.name%>" class="product-child-image" >
+                      </a>
+                    <p class="product-name"><%=producto.name%></p>
+                </article>
+            <% }) %>
+           
+
+        
+        </section>
+
+
+        <%- include('../partials/pagePromo') %>
+
+
+    </main>
+   
+<%- include('../partials/footer') %>

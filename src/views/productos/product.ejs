@@ -1,0 +1,23 @@
+<%-include('../partials/header') %>
+
+<main>
+  <h1><%=producto.name%></h1>
+
+  <section class="product-showcase">
+    <img
+      src="<%=producto.url_img%>"
+      alt="<%=producto.name%>"
+      class="product-image"
+    />
+    <article class="ingredients">
+      <p>Bizcochuelo de: <%=producto.bizcochuelo%></p>
+      <p>Relleno de: <%=producto.relleno%></p>
+      <p>Cubierto de: <%=producto.covertura%></p>
+      <p>Topping: <%=producto.topping%></p>
+    </article>
+  </section>
+
+  <%- include('../partials/pagePromo') %>
+</main>
+
+<%- include('../partials/footer') %>

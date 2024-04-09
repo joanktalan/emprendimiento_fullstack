@@ -1,0 +1,22 @@
+/* EXTERNALS */
+
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* MISCELANEOUS */
+
+@import url('./misc/normalize.css');
+
+/* PARTIALS */
+
+@import url('./partials/header.css');
+@import url('./partials/footer.css');
+
+/* PAGES */
+
+@import url('./pages/home.css');
+@import url('./pages/products.css');
+@import url('./pages/product.css');

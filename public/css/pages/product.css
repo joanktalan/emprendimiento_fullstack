@@ -1,0 +1,10 @@
+.product-showcase{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product-image{
+    width: 728px;
+    height: 500px;
+}

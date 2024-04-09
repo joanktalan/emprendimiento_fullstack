@@ -1,0 +1,93 @@
+[
+    {
+        "id":1,
+        "name":"Torta Arcoiris",
+        "categoria":"torta",
+        "bizcochuelo":"Vainilla",
+        "relleno":"Crema",
+        "covertura":"Crema",
+        "topping":"false",
+        "url_img":"/imgs/tortas/torta-arcoiris.webp"
+    },
+    {
+        "id":2,
+        "name":"Torta con Crema y Frutillas",
+        "categoria":"torta",
+        "bizcochuelo": "Vainilla",
+        "relleno":"Crema,Frutillas",
+        "covertura":"Crema",
+        "topping":"Frutillas",
+        "url_img":"/imgs/tortas/torta-frutillas.jpg"
+    },
+    {
+        "id":3,
+        "name":"Torta Matera",
+        "categoria":"torta",
+        "bizcochuelo": "Vainilla",
+        "relleno":"Crema Pastelera",
+        "covertura":"Azucar Impalpable",
+        "topping":"false",
+        "url_img":"/imgs/tortas/torta-matera.jpg"
+    },
+    {
+        "id":4,
+        "name":"Torta Oreo",
+        "categoria":"torta",
+        "bizcochuelo": "Chocolate",
+        "relleno":"Crema,Dulce de Leche",
+        "covertura":"Crema",
+        "topping":"Oreos,Dulce de Leche",
+        "url_img":"/imgs/tortas/torta_oreo.avif"
+    },
+    {
+        "id":5,
+        "name":"Torta Ricota",
+        "categoria":"torta",
+        "bizcochuelo": "Vainilla",
+        "relleno":"Ricota",
+        "covertura":"Azucar Impalpable",
+        "topping":"false",
+        "url_img":"/imgs/tortas/torta_ricota.jpeg"
+    },
+    {
+        "id":6,
+        "name":"Torta Rocklets",
+        "categoria":"torta",
+        "bizcochuelo": "Chocolate",
+        "relleno":"Dulce de Leche",
+        "covertura":"Chocolate",
+        "topping":"Confites",
+        "url_img":"/imgs/tortas/Torta-rocklets.jpg"
+    },
+    {
+        "id":7,
+        "name":"Torta con Amapolas",
+        "categoria":"torta",
+        "bizcochuelo": "Limón con Amapolas",
+        "relleno":"false",
+        "covertura":"Glaseado de Limón",
+        "topping":"false",
+        "url_img":"/imgs/tortas/torta-amapola.jpg"
+    },
+    {
+        "id":8,
+        "name":"Torta Mouse",
+        "categoria":"torta",
+        "bizcochuelo": "Mousse",
+        "relleno":"Mousse",
+        "covertura":"false",
+        "topping":"Crema",
+        "url_img":"/imgs/tortas/torta-mousse.jpg"
+    },
+    {
+        "id":9,
+        "name":"Torta Chaja",
+        "categoria":"torta",
+        "bizcochuelo": "Vainilla",
+        "relleno":"Crema,Durazno,Dulce de Leche",
+        "covertura":"Crema,Merengues",
+        "topping":"Duraznos,Merengues",
+        "url_img":"/imgs/tortas/torta-chaja.webp"
+    }
+  
+]

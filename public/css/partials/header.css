@@ -1,0 +1,86 @@
+.page-header{
+    background: #CE4A20;
+    height: 144px;
+    font-family: 'Itim';
+}
+
+
+/* MAÑANA EMPIEZO CON FLEXBOX */
+/* NAVBAR */
+
+nav{
+    background: #D76946;
+    height: 144px;
+    }
+
+.navbar__logo{
+    overflow: hidden;
+    width: 100px;
+    padding: 24px 93px 24px 95px;
+}
+
+.navbar{
+    color:rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+}
+
+.navbar__menu{
+    display:flex;
+    gap:36px;
+}
+
+
+
+
+/* Barra Navegadora */
+
+.search_bar{
+  padding: 47px 68px 38px 265px;
+  display: flex;
+}
+
+#search{
+    width: 350px;
+    height: 40px;
+
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-indent: 4px;
+
+    caret-shape: block;
+
+    border-radius: 10px 0px 0px 10px;
+    border-style: none;
+}
+
+#search:focus{
+    outline: none;
+}
+
+
+form.search_bar button {
+    width: 40px;
+    height: 42px;
+    padding: 10px;
+
+    border-style: none;
+    border-radius: 0px 10px 10px 0px;
+
+    background: #AFAFAF;
+
+
+    color: #1E1D1D;
+    font-size: 20px;
+    text-shadow: 4px 1px 2px rgba(0, 0, 0, 0.250);
+    right: 20px;
+    justify-content: center;
+    cursor: pointer;
+    
+  }
+
+
+
+/* NORMALIZACION */
+

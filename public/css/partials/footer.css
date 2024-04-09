@@ -1,0 +1,29 @@
+/* FOOTER */
+
+footer{
+    background:#63342A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.footer_logo{
+    width: 185px;  
+    padding-right: 58px;
+}
+
+.footer__copy{
+    color: white;
+    align-self: flex-end;
+    font-size: 20px;
+    padding-right:110px ;
+}
+
+.navbar__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding: 93px 93px;
+}

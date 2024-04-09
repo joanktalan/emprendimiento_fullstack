@@ -1,0 +1,174 @@
+/* IMAGEN DE TORTA GRANDE */
+
+.main_image_father{
+    display: flex;
+    justify-content: center;
+}
+
+.main_image{
+    object-fit: cover;
+    width: 1304px;
+    height: 400px;
+    margin-top: 52px;
+    margin-bottom: 79px;
+    box-shadow: 20px 20px 15px 1px rgba(0, 0, 0, 0.25);
+    
+}
+
+.collection__cover{
+    width: 400px;
+    height: 265px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 15px 15px 1px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+/* IMAGENES PRINCIPALES */
+
+.main_collection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+
+
+/* TEXTO NUESTRAS DELICIAS */
+
+.collection-title{
+
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #CE4A20;
+    margin-bottom: 0;
+    padding-top: 45px;
+}
+
+
+
+/* IMAGENES ABAJO DE LA TORTA */
+
+.secondary_collection{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap:163px;
+
+}
+
+.secondary_collection:nth-of-type(2) .secondary__collection__image{
+    filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.25));
+}
+
+
+/* IMAGENES PROMOCIONALES */
+
+.gray-line{
+    margin-top: 110px;
+    height: 2px;
+    width: 450px;
+    background-color: #8C8C8C;
+    border: none;
+}
+
+.nuestras_delicias{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.corazon{
+    width: 5%;
+    padding-bottom: 2.875rem;
+}
+
+.secondary_collection_part:nth-child(even) .secondary__collection__image{
+    order:2;
+    filter:none;
+    filter: drop-shadow(-10px 10px 15px rgba(0, 0, 0, 0.25));
+}
+
+.secondary_collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondary_collection_part{
+    display: flex;
+    align-items: center;
+    gap:6.6875rem;
+}
+
+.secondary__collection__image{
+    object-fit: cover;
+    width: 663px;
+    height: 430px;
+}
+
+.secondary__collection__title{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #CE4A20;
+    border-bottom: 2px solid #211512;
+    padding-bottom: 33px;
+}
+
+/* INSTAGRAM PROMO */
+
+.social_media{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #CE4A20;
+    padding-top: 83px;
+    margin:0px;
+}
+
+.gray-line2{
+    margin-top: 28px;
+    width: 450px;
+}
+
+.instagram_promo{
+    display: flex;
+    justify-content: center;
+    gap:.25rem;
+    padding-bottom: 8rem;
+}
+
+.logo_instagram{
+    width:5%;
+    filter: invert(46%) sepia(43%) saturate(6497%) hue-rotate(338deg) brightness(104%) contrast(92%);
+}
+
+.instagram_name{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #CE4A20;
+}
+
