@@ -19,8 +19,8 @@ function products(req,res){
 
 function product(req,res){
     const {id} = req.params;
+    //Lo busca por el id!!!, importante, no tiene que ser por el .at() porque eso seria su posicion en el json
     const producto = productosJSON.find((producto) => producto.id==id)
-    console.log(id);
     res.render('./productos/product',{
         title: producto.name,
         producto:producto

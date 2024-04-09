@@ -1,10 +1,34 @@
+.ind-product-name{
+    display:flex;
+    justify-content: center;
+    font-size:44px;
+}
+
 .product-showcase{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 
 .product-image{
-    width: 728px;
-    height: 500px;
+    width: 500px;
+    height: 300px;
+    padding-bottom: 30px;
 }
+
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #E0B8AB;
+    border-radius: 60px;
+    width: 600px;
+}
+
+.product-description{
+    font-size:20px;
+}
+
+

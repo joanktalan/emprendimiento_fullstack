@@ -1,7 +1,7 @@
 <%-include('../partials/header') %>
 
 <main>
-  <h1><%=producto.name%></h1>
+  <h1 class="ind-product-name"><%=producto.name%></h1>
 
   <section class="product-showcase">
     <img
@@ -10,10 +10,10 @@
       class="product-image"
     />
     <article class="ingredients">
-      <p>Bizcochuelo de: <%=producto.bizcochuelo%></p>
-      <p>Relleno de: <%=producto.relleno%></p>
-      <p>Cubierto de: <%=producto.covertura%></p>
-      <p>Topping: <%=producto.topping%></p>
+      <p class="product-description">Bizcochuelo de: <%=producto.bizcochuelo%></p>
+      <p class="product-description">Relleno de: <%=producto.relleno%></p>
+      <p class="product-description">Cubierto de: <%=producto.covertura%></p>
+      <p class="product-description">Topping: <%=producto.topping%></p>
     </article>
   </section>
 
